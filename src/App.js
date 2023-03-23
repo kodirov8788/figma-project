@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import BannerBottom from './components/bannerBottom/BannerBottom';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <BannerBottom />
     </div>
   );
 }
