@@ -1,0 +1,79 @@
+.BannerBottom {
+    width: 100%;
+    height: 100vh;
+    // background-color: red;           
+
+    .BannerBottomText {
+        padding-left: 10%;
+        font-size: 40px;
+        color: rgb(8, 8, 82);
+    }
+
+    .BannerBottomTexts {
+        padding-left: 10%;
+        font-size: 27px;
+        color: rgb(6, 6, 50);
+
+    }
+
+    .BannerBottomTop {
+        width: 100%;
+        height: 500px;
+        // background-color: blue;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        // padding-left: 10%;
+
+        .BannerBottomLeft {
+            width: 600px;
+            height: 500px;
+            margin-left: 5%;
+        }
+
+        .BannerBottomRight {
+            width: 600px;
+            height: 500px;
+            margin-top: 60px;
+            margin-left: 5%;
+
+            .productIcons {
+                width: 80%;
+                height: 55px;
+                display: flex;
+                padding-left: 10%;
+
+                h2 {
+                    font-size: 16px;
+                    font-weight: 100;
+                    margin-top: -1px;
+                    padding-left: 30px;
+                }
+
+                img {
+                    width: 27px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+    .BannerBottomTextFont {
+        text-align: center;
+        font-size: 35px;
+        color: rgb(8, 8, 58);
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:600px) {
+    .BannerBottomLeft {
+        width: 300px;
+        height: 300px;
+    }
+
+    .BannerBottomLeft {
+        width: 500px;
+        height: 400px;
+    }
+}
