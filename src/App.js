@@ -1,4 +1,6 @@
 import './App.css';
+import Three from './components/three/Three';
+import Two from './components/two/Two';
 import Ins1 from './components/Ins1/Ins1';
 import Navbar from "./components/navbar/Navbar"
 import Main from "./components/main/Main"
@@ -11,6 +13,9 @@ function App() {
       <Main />
       <Ins1 />
       <BannerBottom />
+      <Ins1 />
+      <Two />
+      <Three />
     </div>
   );
 }

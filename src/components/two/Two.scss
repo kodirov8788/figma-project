@@ -1,0 +1,199 @@
+.two-main{
+    width: 98%;
+    height: 576px;
+    // border: 1px solid dodgerblue;
+    order: 1;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 80px 180px;
+    gap: 74px;
+    
+    .two-left{
+        width: 524px;
+        height: 416px;
+        display: flex;
+        // border: 1px solid red;
+        position: relative;
+        
+        h1 {
+            position: absolute;
+            width: 87px;
+            height: 160px;
+            font-family: sans-serif 'Rubik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 140px;
+            line-height: 160px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #E7E7EB;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            right: 330px;
+        }
+
+        .left-text{
+            position: absolute;
+            right: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 46px;
+            width: 285px;
+            height: 240px;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            // border: 1px solid green;
+            
+            h2{
+                width: 285px;
+                height: 240px;             
+                font-family: sans-serif 'Rubik';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 35px;
+                line-height: 48px;
+                color: #2F2B5B;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+        }
+    }
+
+
+    .two-right {
+        width: 524px;
+        height: 416px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 32px;
+        // border: 1px solid blue;
+
+        .right1{
+            width: 524px;
+            height: 48px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            // border: 1px solid blue;
+            position: relative;
+
+            .check{
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                left: 0px;
+                top: 5px;
+                background: #3EC0AD;
+                border-radius: 3px;
+            }
+
+            p{
+                position: absolute;
+                width: 492px;
+                height: 48px;
+                left: 32px;
+                top: 0px;
+                font-family: sans-serif 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+    }
+    .right1:nth-child(2){
+        width: 524px;
+        height: 24px;
+        // border: 1px solid dodgerblue;
+    }
+    .right1:nth-child(3){
+        width: 524px;
+        height: 72px;
+        // border: 1px solid green;
+
+        p{
+            position: absolute;
+            width: 492px;
+            height: 72px;
+            left: 32px;
+            top: 0px;
+            font-family: sans-serif 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            color: #2F2B5B;
+            
+                span{
+                    color: #6E66CC;
+                }
+        }
+    }
+    .right1:nth-child(4){
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 32px;
+        width: 524px;
+        height: 176px;
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        // border: 1px solid red;
+        position: relative;
+
+        .right4{
+            width: 524px;
+            height: 48px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            position: relative;
+            // border: 1px solid red;
+
+            p {
+                position: absolute;
+                width: 492px;
+                height: 48px;
+                left: 30px;
+                top: 0px;
+                font-family: sans-serif 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+                color: #2F2B5B;
+                // border: 1px solid red;
+            }
+        }
+
+        .P {
+            position: absolute;
+            width: 524px;
+            height: 96px;
+            font-family: sans-serif 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            color: #2F2B5B;
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+            top: 70px;
+            left: 0;
+       }
+    }
+}
