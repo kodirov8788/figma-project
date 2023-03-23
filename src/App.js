@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Three from './components/three/Three';
+import Two from './components/two/Two';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+      <Two />
+      <Three />
     </div>
   );
 }
