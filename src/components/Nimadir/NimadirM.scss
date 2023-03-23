@@ -1,0 +1,43 @@
+@media screen and (max-width:500px) {
+    .foter {
+        display: grid;
+
+        .f1 {
+            display: flex;
+            height: 30%;
+            width: 100%;
+
+            .img1 {
+                width: 200px;
+                height: 60px;
+            }
+
+            .img2 {
+                margin-top: 10px;
+                width: 120px;
+                height: 40px;
+                margin-left: 50px;
+            }
+        }
+
+        .g {
+            display: flex;
+
+            .f2 {
+                width: 50%;
+                margin-left: 50px;
+            }
+
+            .f3 {
+                margin-left: 50px;
+                width: 50%;
+            }
+        }
+
+        .f4 {
+            display: none;
+        }
+
+
+    }
+}
