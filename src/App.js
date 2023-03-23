@@ -1,10 +1,10 @@
-import './App.css';
-import Ins1 from './components/Ins1/Ins1';
+import './App.scss';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Ins1 />
+      <Footer />
     </div>
   );
 }
